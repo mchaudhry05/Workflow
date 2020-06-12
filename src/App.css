@@ -115,22 +115,27 @@
 }
 .task{
   display: flex;
-  justify-content: space-evenly;
   background-color:azure;
   width: 400px;
-  height: 40px;
+  min-height: 40px;
   margin-top: 20px;
   border-radius: 10px;
   border: solid;
   border-color: black;
+  text-align: center; 
+  max-height: fit-content;
   
 }
 
 .task-list{
-  display: inline-block;
-  margin-top: 10px;
   background-color:azure;
   text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width:300px;
+  overflow-x: scroll;
+  
 }
 
 .button-right{
@@ -142,6 +147,8 @@
   width: 35px;
   border: none;
   margin-top: 2.5px;
+  float: right;
+  margin-right: 10px;
 }
 
 .button-left{
@@ -153,6 +160,8 @@
   width: 35px;
   border: none;
   margin-top: 2.5px;
+  float: left;
+  margin-left: 10px;
 }
 
 .button-trash{
@@ -164,4 +173,7 @@
   width: 35px;
   border: none;
   margin-top: 2.5px;
+  float: left;
+  margin-left: 10px;
 }
+
