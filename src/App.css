@@ -1,0 +1,140 @@
+* {    
+  margin: 0;
+  padding: 0;
+  background-color: #bae1ff;
+}
+.header-container{
+  background-color: black;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.header{
+  width: auto;
+  height: 50px;
+  text-align: left;
+  color: azure;
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.todo, 
+.doing, 
+.done{
+  width: 500px;
+  height: 550px;
+  margin: 40px;
+  margin-top: 100px;
+  border-bottom-style: solid ; 
+  border-color: black;
+}
+
+
+.type{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: azure;
+}
+
+.container-todo{
+  display: flex; 
+  justify-content: center;
+  background-color: #ffb3ba;
+}
+
+.container-doing{
+  display: flex; 
+  justify-content: center;
+  background-color: #ffffba;
+}
+
+.container-done{
+  display: flex; 
+  justify-content: center;
+  background-color: #baffc9;
+}
+
+
+.todo{
+  background-color: #ffb3ba;
+}
+
+.doing{
+  background-color: #ffffba;
+}
+
+.done{
+  background-color: #baffc9;
+}
+
+.task-container-todo{
+  display: inline-block;
+  background-color: #ffb3ba;
+}
+
+.task-container-doing{
+  display: inline-block;
+  background-color: #ffffba;
+}
+
+.task-container-done{
+  display: inline-block;
+  background-color: #baffc9;
+}
+.task{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:azure;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  
+}
+
+.task-list{
+  display: inline-block;
+  margin-top: 10px;
+  background-color:azure;
+  text-align: center;
+}
+
+.button-right{
+  background-color: azure;
+  background-image: url(./right.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  border: none;
+  margin-top: 2.5px;
+}
+
+.button-left{
+  background-color: azure;
+  background-image: url(./left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  border: none;
+  margin-top: 2.5px;
+}
+
+.button-trash{
+  background-color: azure;
+  background-image: url(./trash.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  border: none;
+  margin-top: 2.5px;
+}
