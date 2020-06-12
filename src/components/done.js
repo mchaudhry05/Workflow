@@ -4,7 +4,7 @@ class Done extends Component{
     render(){
         return(
             <div className="done">
-                <h1 className="type">Done Here</h1>
+                <h1 className="type">DONE</h1>
                 <div className="container-done">
                 <div className="task-container-done">
                     {

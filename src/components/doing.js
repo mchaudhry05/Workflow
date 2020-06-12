@@ -4,7 +4,7 @@ class Doing extends Component{
     render(){
         return(
             <div className="doing">
-                <h1 className="type">Doing Here</h1>
+                <h1 className="type">WORKING ON</h1>
                 <div className="container-doing">
                 <div className="task-container-doing">
                     {

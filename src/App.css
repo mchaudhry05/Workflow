@@ -59,6 +59,33 @@
   background-color: #baffc9;
 }
 
+.form{
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  background-color: azure;
+}
+
+.formButton{
+  width: 100px;
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  background-color: azure;
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+  background-color: #ffb3ba;
+  width: 400px;
+  height: 70px;
+}
 
 .todo{
   background-color: #ffb3ba;

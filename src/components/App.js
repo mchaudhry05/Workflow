@@ -85,12 +85,30 @@ class App extends Component{
     console.log(chosenElement)
   }
 
+  //Add Item to List: 
+  addTask = (e, value) =>{
+    e.preventDefault();
+    var array = [... this.state.todos]; 
+    const name = value 
+    var jsonObj = {
+      content: name,
+      id: array.length, 
+      isTodo: true, 
+      isDoing: false, 
+      isCompleted: false,
+    }
+
+    array.push(jsonObj)
+    this.setState({todos: array})
+  }
+  
+
 render(){
   return (
     <div className="App">
      <Header/>
      <div className="container">
-        <Todo item ={this.state.todos} delete ={this.removeTodo} right={this.moveToRight}/>
+        <Todo item ={this.state.todos} delete ={this.removeTodo} right={this.moveToRight} add={this.addTask}/>
         <Doing item ={this.state.todos} left ={this.moveToLeft} right={this.moveToRight}/>
         <Done item ={this.state.todos} left ={this.moveToLeft}/>
      </div>
